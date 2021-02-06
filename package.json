@@ -1,0 +1,17 @@
+{
+    "name": "node-web-sockets",
+    "version": "1.0.0",
+    "description": "node-web-sockets",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server/server.js"
+    },
+    "author": "otniel97",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.3",
+        "nodemon": "^2.0.7",
+        "socket.io": "^3.1.1"
+    }
+}
